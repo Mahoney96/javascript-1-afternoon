@@ -54,11 +54,11 @@ function greeting(name){
   if (name==="Trogdor"){
     return "Hello, " + name
   }else{
-    return "Hello, name";
+    return "Hello, undefined";
   }
 }
 
-let name = "undefined";
+let name = "";
 
 greeting()
 
@@ -70,6 +70,7 @@ greeting()
 
 //Code Here
 
+newGreeting = greeting
 
 
 
@@ -80,7 +81,7 @@ greeting()
 
 //Code Here
 
-let groceries = [apples, milk, eggs, bread]
+let groceries = ["apples", "milk", "eggs", "bread"]
 
 //////////////////PROBLEM 9////////////////////
 
