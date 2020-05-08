@@ -3,7 +3,7 @@
 //Create a variable called myName that is a string data type
 
 //Code here
-myName = 'Camden'
+let myName = 'Camden'
 
 
 
@@ -38,7 +38,7 @@ let greatestFear = undefined
 
 //Code here
 
-let devMountainGoal = null
+let devMountainGoal = null;
 
 
 //////////////////PROBLEM 6////////////////////
@@ -50,16 +50,17 @@ let devMountainGoal = null
 
 //Code here
 
-let name = 'Trogdor'
-
-function greeting (name) {
-  console.log('Hello')
-  return 
+function greeting(name){
+  if (name==="Trogdor"){
+    return "Hello, " + name
+  }else{
+    return "Hello, name";
+  }
 }
 
-let greetingReturn = greeting()
+let name = "undefined";
 
-console.log(greetingReturn)
+greeting()
 
 
 //////////////////PROBLEM 7////////////////////
@@ -68,6 +69,7 @@ console.log(greetingReturn)
 //Give it the same functionality as the function greeting in Problem 6.
 
 //Code Here
+
 
 
 
