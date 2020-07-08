@@ -27,7 +27,6 @@ let lovesCode = true
 
 //Create a variable called greatestFear that is undefined because we fear nothing
 
-
 //Code here
 
 let greatestFear = undefined
@@ -51,16 +50,10 @@ let devMountainGoal = null;
 //Code here
 
 function greeting(name){
-  if (name==="Trogdor"){
-    return "Hello, " + name
-  }else{
-    return "Hello, undefined";
-  }
+  return `Hello, ${name}`
 }
 
-let name = "";
-
-greeting()
+greeting(Trodgor)
 
 
 //////////////////PROBLEM 7////////////////////
@@ -70,7 +63,13 @@ greeting()
 
 //Code Here
 
-newGreeting = greeting
+var newGreeting = function(name){
+  return `Hello, ${name}`
+}
+
+newGreeting();
+
+
 
 
 
