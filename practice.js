@@ -92,7 +92,7 @@ let dog = {
   name: "Milo",
   color: "Sandy-Brown",
   age: 3,
-  goodBoy: true
+  goodBoy: true,
 };
 
 dog();
@@ -101,7 +101,7 @@ dog();
 //variable called devMountainClassPet.
 
 //Code Here
-
+ var devMountainClassPet = dog.name
 // console.log(dog.name)
 
 //////////////////PROBLEM 10////////////////////
@@ -114,6 +114,8 @@ dog();
 // with NAMEPARAM being the name parameter being passed in (not literally NAMEPARAM)
 
 // Code here
+
+
 
 //////////////////PROBLEM 11////////////////////
 
@@ -148,7 +150,7 @@ add(3,4)
 // Code here
 
 function faveColorFinder(color){
-  
+
 }
 
 //////////////////PROBLEM 13////////////////////
