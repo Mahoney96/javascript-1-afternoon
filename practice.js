@@ -63,9 +63,16 @@ greeting(Trodgor)
 
 //Code Here
 
-var newGreeting = function(name){
-  return "Hello, " + name
+let newGreeting = function(name){
+  return `Hello, ${name}`
 }
+
+newGreeting("Trodgor");
+
+
+
+
+
 
 //////////////////PROBLEM 8////////////////////
 
@@ -74,7 +81,7 @@ var newGreeting = function(name){
 
 //Code Here
 
- groceries = ["apples", "milk", "eggs", "bread"];
+ let groceries = ["apples", "milk", "eggs", "bread"];
 
 //////////////////PROBLEM 9////////////////////
 
@@ -95,7 +102,7 @@ let dog = {
   goodBoy: true,
 };
 
-dog();
+console.log(dog);
 
 //...access the dog's name from the object and assign it to a
 //variable called devMountainClassPet.
