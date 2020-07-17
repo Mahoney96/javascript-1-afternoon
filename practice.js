@@ -63,11 +63,7 @@ greeting(Trodgor)
 
 //Code Here
 
-let newGreeting = function(name){
-  return `Hello, ${name}`
-}
 
-newGreeting("Trodgor");
 
 
 
